@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    background: url(images/mountains-universe-1.png) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    outline: 3px solid white;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(0, 217, 255);
+    outline: none;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.aside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.aside > h1 {
+    color: white;
+    text-align: left;
+}
+
+.aside > p {
+    color: white;
+}
+
+.otherTitle {
+    left: 30%;
+    align-items:flex-start;
+}
