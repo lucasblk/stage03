@@ -72,6 +72,8 @@ export class FavoritesView extends Favorites {
             const row = this.createRow()
             row.querySelector('.user img').src = `https://github.com/${user.login}.png`
 
+            row.querySelector('.user a').href = `https://github.com/${user.login}`
+
             row.querySelector('.user p').textContent = user.name
 
             row.querySelector('.user img').alt = `Imagem de ${user.name}`
